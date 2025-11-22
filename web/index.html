@@ -1,0 +1,35 @@
+<!--made by 2025181449 muhammad hafiy bin abdul rahman CDCS2534B, student in CSC584-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Profile form:</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>personal profile</h2>
+        <form action="ProfileServlet" method="POST">
+            <label>name:</label>
+            <input type="text" name="name" required>
+
+            <label>student ID:</label>
+            <input type="text" name="studentId" required>
+
+            <label>program:</label>
+            <input type="text" name="program" required>
+
+            <label>email:</label>
+            <input type="email" name="email" required>
+
+            <label>hobbies:</label>
+            <input type="text" name="hobbies" placeholder="examples: reading, sports">
+
+            <label>self introduction:</label>
+            <textarea name="intro" rows="4" required></textarea>
+
+            <button type="submit">submit?</button>
+        </form>
+    </div>
+</body>
+</html>
